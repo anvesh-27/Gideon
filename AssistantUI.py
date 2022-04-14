@@ -72,28 +72,12 @@ class Ui_Form(object):
         self.background.setObjectName("background")
 
 
-        self.box4 = QtWidgets.QLabel(Form)
-        self.box4.setGeometry(QtCore.QRect(1500, 260, 311, 81))
-        self.box4.setText("")
-        self.box4.setPixmap(QtGui.QPixmap("Media/bar.png"))
-        self.box4.setScaledContents(True)
-        self.box4.setObjectName("box4")
-
-
-        self.box5 = QtWidgets.QLabel(Form)
-        self.box5.setGeometry(QtCore.QRect(1500, 430, 311, 81))
-        self.box5.setText("")
-        self.box5.setPixmap(QtGui.QPixmap("Media/bar.png"))
-        self.box5.setScaledContents(True)
-        self.box5.setObjectName("box5")
-
-
-        self.box6 = QtWidgets.QLabel(Form)
-        self.box6.setGeometry(QtCore.QRect(1500, 600, 311, 81))
-        self.box6.setText("")
-        self.box6.setPixmap(QtGui.QPixmap("Media/bar.png"))
-        self.box6.setScaledContents(True)
-        self.box6.setObjectName("box6")
+        self.chat_box = QtWidgets.QLabel(Form)
+        self.chat_box.setGeometry(QtCore.QRect(1500, 242, 350, 530))
+        self.chat_box.setText("")
+        self.chat_box.setPixmap(QtGui.QPixmap("Media/chatbox.png"))
+        self.chat_box.setScaledContents(True)
+        self.chat_box.setObjectName("chat_box")
 
 
         self.time_box = QtWidgets.QLabel(Form)
@@ -222,7 +206,7 @@ class Ui_Form(object):
         self.date_box.raise_()
         self.temperature_box.raise_()
         self.ip_box.raise_()
-        # self.box4.raise_()
+        self.chat_box.raise_()
         # self.box5.raise_()
         # self.box6.raise_()
         self.time_box.raise_()
@@ -239,9 +223,9 @@ class Ui_Form(object):
         self.arc_side2.raise_()
         self.name.raise_()
         self.label_ip.raise_()
-        self.label_2.raise_()
-        self.label_7.raise_()
-        self.label_8.raise_()
+        # self.label_2.raise_()
+        # self.label_7.raise_()
+        # self.label_8.raise_()
 
         self.retranslateUi(Form)
         QtCore.QMetaObject.connectSlotsByName(Form)
