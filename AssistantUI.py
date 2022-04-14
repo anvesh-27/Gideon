@@ -116,20 +116,18 @@ class Ui_Form(object):
         self.exit.setObjectName("exit")
 
 
-        self.arrow2 = QtWidgets.QLabel(Form)
-        self.arrow2.setGeometry(QtCore.QRect(1360, 720, 201, 81))
-        self.arrow2.setText("")
-        self.arrow2.setPixmap(QtGui.QPixmap("Media/arrow 1.jpg"))
-        self.arrow2.setScaledContents(True)
-        self.arrow2.setObjectName("arrow2")
+        self.label_3 = QtWidgets.QLabel(Form)
+        self.label_3.setGeometry(QtCore.QRect(1360, 720, 201, 81))
+        self.label_3.setText("")
+        self.label_3.setScaledContents(True)
+        self.label_3.setObjectName("label_3")
 
 
-        self.arrow1 = QtWidgets.QLabel(Form)
-        self.arrow1.setGeometry(QtCore.QRect(360, 720, 201, 81))
-        self.arrow1.setText("")
-        self.arrow1.setPixmap(QtGui.QPixmap("Media/arrow 2.jpg"))
-        self.arrow1.setScaledContents(True)
-        self.arrow1.setObjectName("arrow1")
+        self.label_4 = QtWidgets.QLabel(Form)
+        self.label_4.setGeometry(QtCore.QRect(360, 720, 201, 81))
+        self.label_4.setText("")
+        self.label_4.setScaledContents(True)
+        self.label_4.setObjectName("label_4")
 
 
         self.init_system = QtWidgets.QLabel(Form)
@@ -229,8 +227,8 @@ class Ui_Form(object):
         self.box6.raise_()
         self.box7.raise_()
         self.exit.raise_()
-        self.arrow2.raise_()
-        self.arrow1.raise_()
+        self.label_3.raise_()
+        self.label_4.raise_()
         self.init_system.raise_()
         self.time.raise_()
         self.date.raise_()
