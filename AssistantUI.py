@@ -28,20 +28,20 @@ class Ui_Form(object):
         self.Frame.setObjectName("Frame")
 
 
-        self.box1 = QtWidgets.QLabel(Form)
-        self.box1.setGeometry(QtCore.QRect(110, 260, 311, 81))
-        self.box1.setText("")
-        self.box1.setPixmap(QtGui.QPixmap("Media/bar.png"))
-        self.box1.setScaledContents(True)
-        self.box1.setObjectName("box1")
+        self.date_box = QtWidgets.QLabel(Form)
+        self.date_box.setGeometry(QtCore.QRect(110, 260, 311, 81))
+        self.date_box.setText("")
+        self.date_box.setPixmap(QtGui.QPixmap("Media/bar.png"))
+        self.date_box.setScaledContents(True)
+        self.date_box.setObjectName("date_box")
 
 
-        self.box2 = QtWidgets.QLabel(Form)
-        self.box2.setGeometry(QtCore.QRect(110, 430, 311, 81))
-        self.box2.setText("")
-        self.box2.setPixmap(QtGui.QPixmap("Media/bar.png"))
-        self.box2.setScaledContents(True)
-        self.box2.setObjectName("box2")
+        self.temperature_box = QtWidgets.QLabel(Form)
+        self.temperature_box.setGeometry(QtCore.QRect(110, 430, 311, 81))
+        self.temperature_box.setText("")
+        self.temperature_box.setPixmap(QtGui.QPixmap("Media/bar.png"))
+        self.temperature_box.setScaledContents(True)
+        self.temperature_box.setObjectName("temperature_box")
 
 
         self.arc_reactor = QtWidgets.QLabel(Form)
@@ -56,12 +56,12 @@ class Ui_Form(object):
         self.movie.start()
 
 
-        self.box3 = QtWidgets.QLabel(Form)
-        self.box3.setGeometry(QtCore.QRect(110, 600, 311, 81))
-        self.box3.setText("")
-        self.box3.setPixmap(QtGui.QPixmap("Media/bar.png"))
-        self.box3.setScaledContents(True)
-        self.box3.setObjectName("box3")
+        self.ip_box = QtWidgets.QLabel(Form)
+        self.ip_box.setGeometry(QtCore.QRect(110, 600, 311, 81))
+        self.ip_box.setText("")
+        self.ip_box.setPixmap(QtGui.QPixmap("Media/bar.png"))
+        self.ip_box.setScaledContents(True)
+        self.ip_box.setObjectName("ip_box")
 
 
         self.background = QtWidgets.QLabel(Form)
@@ -96,12 +96,12 @@ class Ui_Form(object):
         self.box6.setObjectName("box6")
 
 
-        self.box7 = QtWidgets.QLabel(Form)
-        self.box7.setGeometry(QtCore.QRect(660, 700, 601, 121))
-        self.box7.setText("")
-        self.box7.setPixmap(QtGui.QPixmap("Media/bar 2.jpg"))
-        self.box7.setScaledContents(True)
-        self.box7.setObjectName("box7")
+        self.time_box = QtWidgets.QLabel(Form)
+        self.time_box.setGeometry(QtCore.QRect(660, 700, 601, 121))
+        self.time_box.setText("")
+        self.time_box.setPixmap(QtGui.QPixmap("Media/bar 2.jpg"))
+        self.time_box.setScaledContents(True)
+        self.time_box.setObjectName("time_box")
 
 
         self.exit = QtWidgets.QPushButton(Form)
@@ -219,13 +219,13 @@ class Ui_Form(object):
 
         self.background.raise_()
         self.Frame.raise_()
-        self.box1.raise_()
-        self.box2.raise_()
-        self.box3.raise_()
-        self.box4.raise_()
-        self.box5.raise_()
-        self.box6.raise_()
-        self.box7.raise_()
+        self.date_box.raise_()
+        self.temperature_box.raise_()
+        self.ip_box.raise_()
+        # self.box4.raise_()
+        # self.box5.raise_()
+        # self.box6.raise_()
+        self.time_box.raise_()
         self.exit.raise_()
         self.label_3.raise_()
         self.label_4.raise_()
