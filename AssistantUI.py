@@ -99,6 +99,18 @@ class Ui_Form(object):
         self.exit.setProperty("wordWrap", False)
         self.exit.setObjectName("exit")
 
+        
+        self.mic = QtWidgets.QPushButton(Form)
+        self.mic.setGeometry(QtCore.QRect(110, 730, 91, 91))
+        self.mic.setStyleSheet("image: url(./Media/mic.png);\n"
+        "border:none;")
+        self.mic.setLocale(QtCore.QLocale(QtCore.QLocale.English, QtCore.QLocale.India))
+        self.mic.setText("")
+        self.mic.setProperty("pixmap", QtGui.QPixmap(":/rec/Media/mic.png"))
+        self.mic.setProperty("scaledContents", True)
+        self.mic.setProperty("wordWrap", False)
+        self.mic.setObjectName("mic")
+
 
         self.label_3 = QtWidgets.QLabel(Form)
         self.label_3.setGeometry(QtCore.QRect(1360, 720, 201, 81))
@@ -211,6 +223,7 @@ class Ui_Form(object):
         # self.box6.raise_()
         self.time_box.raise_()
         self.exit.raise_()
+        self.mic.raise_()
         self.label_3.raise_()
         self.label_4.raise_()
         self.init_system.raise_()
