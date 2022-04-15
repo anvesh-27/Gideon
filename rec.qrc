@@ -1,0 +1,8 @@
+<RCC>
+  <qresource prefix="rec">
+    <file>Media/bar 2.jpg</file>
+    <file>Media/bar.png</file>
+    <file>Media/bg.jpg</file>
+    <file>Media/frame.png</file>
+  </qresource>
+</RCC>
