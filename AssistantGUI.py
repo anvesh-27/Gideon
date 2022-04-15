@@ -10,8 +10,6 @@ from PyQt5.QtCore import Qt , QTimer , QTime , QDate
 import Assistant
 import sys
 import time
-import datetime
-import socket
 import wolframalpha
 from requests import get
 

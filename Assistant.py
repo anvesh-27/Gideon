@@ -1,4 +1,3 @@
-from tkinter import E
 import pyttsx3
 import speech_recognition as sr
 import datetime
@@ -6,10 +5,9 @@ import sys
 import time
 import wikipedia
 from requests import get
-import webbrowser
 import os
 import pywhatkit
-import socket
+
 
 pyttsx3.init()
 
