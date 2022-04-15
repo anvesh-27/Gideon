@@ -32,4 +32,16 @@ To install these modules -
     8.pip install pyqt5
     9.pip install PySide2
 
+If you get an error regarding the pyaudio module. Refer this video https://www.youtube.com/watch?v=-3am_5jMzJ4 or Follow the following steps -
+
+    1. Go to https://www.lfd.uci.edu/~gohlke/pythonlibs/#pyaudio this website.
+    2. Select your python version and download the required file.
+    3. Open a powershell window where you have installed pyaudio.
+    4. Now enter the following code
+
+        pip install PyAudio
+
+    5. Hit Tab key, it will autocomplete the file name.
+    6. Hit Enter key.
+
 Now you can run the Assistant by running the AssistantGUI.py
