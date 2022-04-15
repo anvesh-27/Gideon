@@ -23,7 +23,7 @@ To install these modules -
 
     1.pip install wolframalpha
     2.pip install pyttsx3
-    3.pip install speech_recognition
+    3.pip install SpeechRecognition
     4.pip install datetime
     5.pip install wikipedia
     6.pip install requests
