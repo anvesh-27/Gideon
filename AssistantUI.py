@@ -138,20 +138,29 @@ class Ui_Form(object):
         self.movie2.start()
 
 
+        self.listening = QtWidgets.QLabel(Form)
+        self.listening.setGeometry(QtCore.QRect(220, 730, 100, 100))
+        self.listening.setText("")
+        self.listening.setPixmap(QtGui.QPixmap("Media/listening.gif"))
+        self.listening.setScaledContents(True)
+        self.listening.setObjectName("listening")
+
+        self.movie3 = QMovie("./Media/listening.gif")
+        self.listening.setMovie(self.movie3)
+        self.movie3.start()
+
+
         self.time = QtWidgets.QLabel(Form)
         self.time.setGeometry(QtCore.QRect(700, 727, 531, 61))
         self.time.setText("")
         self.time.setObjectName("time")
         self.time.setAlignment(Qt.AlignCenter)
 
-        
-
-
+     
         self.date = QtWidgets.QLabel(Form)
         self.date.setGeometry(QtCore.QRect(140, 280, 251, 41))
         self.date.setObjectName("date")
         self.date.setAlignment(Qt.AlignCenter)
-
 
 
         self.temp = QtWidgets.QLabel(Form)
@@ -233,6 +242,7 @@ class Ui_Form(object):
         self.arc_reactor.raise_()
         self.arc_side1.raise_()
         self.init_system2.raise_()
+        self.listening.raise_()
         self.arc_side2.raise_()
         self.name.raise_()
         self.label_ip.raise_()
