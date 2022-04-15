@@ -18,6 +18,7 @@ Required modules to use this assistant are -
     6.requests
     7.pywhatkit
     8.pyqt5
+    9.PySide2
 
 To install these modules - 
 
@@ -29,5 +30,6 @@ To install these modules -
     6.pip install requests
     7.pip install pywhatkit
     8.pip install pyqt5
+    9.pip install PySide2
 
 Now you can run the Assistant by running the AssistantGUI.py
