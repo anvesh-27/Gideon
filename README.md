@@ -1,4 +1,3 @@
-#Gideon
 This is a Graphical User Interface Desktop Assistant , that is not completed yet but is still usable. It has been designed using PyQt5. It takes the user's query in the form of speech and gives the desired output.
 
 You will have to download all the files and save them in a folder.
