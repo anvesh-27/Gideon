@@ -73,7 +73,7 @@ class Ui_Form(object):
 
 
         self.chat_box = QtWidgets.QLabel(Form)
-        self.chat_box.setGeometry(QtCore.QRect(1500, 242, 350, 530))
+        self.chat_box.setGeometry(QtCore.QRect(1500, 232, 350, 530))
         self.chat_box.setText("")
         self.chat_box.setPixmap(QtGui.QPixmap("Media/chatbox.png"))
         self.chat_box.setScaledContents(True)
