@@ -125,6 +125,34 @@ def Task_Gui():
             print(f"Your current working directory is: {cwd}")
             speak(f"Your current working directory is: {cwd}")
 
+        elif 'who are you' in query:
+            speak("I am a basic AI Technology based prototype named Gideon sir...")
+            print("I am a basic AI Technology based prototype named Gideon sir...")
+
+        elif 'your name' in query:
+            speak("My name is Gideon.")
+            print("My name is Gideon.")
+
+        elif 'you have feelings' in query:
+            speak("Yes sir, I have lots of emotions. I feel excited when I learn something new.")
+            print("Yes sir, I have lots of emotions. I feel excited when I learn something new.")
+
+        elif 'you like me' in query:
+            speak("I like you even more than anything else sir..." )
+            print("I like you even more than anything else sir..." )
+
+        elif 'your birthday' or 'your age' in query:
+            speak("I was launched on 13 April 2022 ")
+            print("I was launched on 13 April 2022 ")
+
+        elif 'you are nice' or 'you are so good' in query:
+            speak("Thanks, So are you sir...")
+            print("Thanks, So are you sir...")
+
+        elif 'who made you' or 'who is your creator' or 'you were made by' or 'who created you' 'who is your author' in query:
+            speak("I was created by Anvesh Katiyar")
+            print("I was created by Anvesh Katiyar")
+
         else:
             try:
                 res = app.query(query)
