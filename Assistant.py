@@ -7,7 +7,13 @@ import wikipedia
 from requests import get
 import os
 import pywhatkit
+import wolframalpha
 
+try:
+    app = wolframalpha.Client("48RLHU-QAT37WAXH8")
+
+except:
+    print("Internet connention error")
 
 pyttsx3.init()
 
@@ -120,4 +126,10 @@ def Task_Gui():
             speak(f"Your current working directory is: {cwd}")
 
         else:
-            pass
+            try:
+                res = app.query(query)
+                print(next(res.results).text)
+                speak(next(res.results).text)
+            except:
+                print("No Internet connection")
+
