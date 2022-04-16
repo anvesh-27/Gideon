@@ -16,10 +16,6 @@ voices = engine.getProperty('voices')
 # print(voices[0].id)
 engine.setProperty('voice', voices[1].id)
 
-# webbrowser.register('chrome',
-# 	None,
-# 	webbrowser.BackgroundBrowser("C://Program Files//Google//Chrome//Application//chrome.exe"))
-# webbrowser.get('chrome').open(url)
 
 def speak(audio):
     engine.say(audio)
@@ -40,9 +36,7 @@ def takeCommand():  # It takes microphome input and provides string output
         print(f"User said: {query}\n")
 
     except Exception as e:
-        print(e)
-        # print("Sir, Say that again please...")
-        # speak("Sir, Say that again please...")    
+        print(e) 
         return "None" 
 
     query = query.lower()
