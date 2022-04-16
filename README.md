@@ -19,6 +19,7 @@ Required modules to use this assistant are -
     7.pywhatkit
     8.pyqt5
     9.PySide2
+    10.flask
 
 To install these modules - 
 
@@ -31,6 +32,7 @@ To install these modules -
     7.pip install pywhatkit
     8.pip install pyqt5
     9.pip install PySide2
+    10.pip install flask
 
 If you get an error regarding the pyaudio module. Refer this video https://www.youtube.com/watch?v=-3am_5jMzJ4 or Follow the following steps -
 
