@@ -10,29 +10,46 @@ Hit enter to run the code. Now close the Powershell Window.
 
 Required modules to use this assistant are -
 
-    1.wolframalpha
-    2.pyttsx3
-    3.speech_recognition
-    4.datetime
-    5.wikipedia
-    6.requests
-    7.pywhatkit
-    8.pyqt5
-    9.PySide2
-    10.flask
+1.wolframalpha
 
-To install these modules - 
+    pip install wolframalpha
 
-    1.pip install wolframalpha
-    2.pip install pyttsx3
-    3.pip install SpeechRecognition
-    4.pip install datetime
-    5.pip install wikipedia
-    6.pip install requests
-    7.pip install pywhatkit
-    8.pip install pyqt5
-    9.pip install PySide2
-    10.pip install flask
+2.pyttsx3
+
+    pip install pyttsx3
+
+3.speech_recognition
+
+    pip install SpeechRecognition
+
+4.datetime
+
+    pip install datetime
+
+5.wikipedia
+
+    pip install wikipedia
+
+6.requests
+
+    pip install requests
+
+7.pywhatkit
+
+    pip install pywhatkit
+
+8.pyqt5
+
+    pip install pyqt5
+
+9.PySide2
+
+    pip install PySide2
+
+10.flask
+
+    pip install flask
+
 
 If you get an error regarding the pyaudio module. Refer this video https://www.youtube.com/watch?v=-3am_5jMzJ4 or Follow the following steps -
 
