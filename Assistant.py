@@ -159,5 +159,6 @@ def Task_Gui():
                 print(next(res.results).text)
                 speak(next(res.results).text)
             except:
-                print("No Internet connection")
+               gsearch = takeCommand().lower()
+               pywhatkit.search(f"{gsearch}")
 
