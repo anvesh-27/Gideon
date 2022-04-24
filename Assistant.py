@@ -141,18 +141,6 @@ def Task_Gui():
             speak("I like you even more than anything else sir..." )
             print("I like you even more than anything else sir..." )
 
-        elif 'your birthday' or 'your age' in query:
-            speak("I was launched on 13 April 2022 ")
-            print("I was launched on 13 April 2022 ")
-
-        elif 'you are nice' or 'you are so good' in query:
-            speak("Thanks, So are you sir...")
-            print("Thanks, So are you sir...")
-
-        elif 'who made you' or 'who is your creator' or 'you were made by' or 'who created you' 'who is your author' in query:
-            speak("I was created by Anvesh Katiyar")
-            print("I was created by Anvesh Katiyar")
-
         else:
             try:
                 res = app.query(query)
