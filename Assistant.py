@@ -143,10 +143,17 @@ def Task_Gui():
 
         else:
             try:
-                res = app.query(query)
-                print(next(res.results).text)
-                speak(next(res.results).text)
+                speak(f"Would you like me to search {query} on google?")
+                print(f"Would you like me to search {query} on google?")
+                exception_query = takeCommand().lower()
+                if "yes" in exception_query:
+                    pywhatkit.search(f"{query}")
+                    results = results.text[:30]            
+                    print(results)
+                    speak(results)
+                else:
+                    print("ok")
+                    speak("ok")
             except:
-               gsearch = takeCommand().lower()
-               pywhatkit.search(f"{gsearch}")
+                print("No result found")
 
