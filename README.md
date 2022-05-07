@@ -12,6 +12,7 @@ Open a powershell window in the main directory where you have saved your files. 
 Hit enter to run the code. Now close the Powershell Window.
 
 ## Python requirements
+You need to have python3 to run this
 ```
 pip install -r requirements.txt
 ```
@@ -29,4 +30,4 @@ If you get an error regarding the pyaudio module. Refer this video https://www.y
     6. Hit Enter key.
 
 ## Run
-Now you can run the Assistant by running the AssistantGUI.py
+Now you can run the Assistant by running the "AssistantGUI.py".
