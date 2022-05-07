@@ -1,0 +1,10 @@
+wolframalpha
+pyttsx3
+SpeechRecognition
+datetime
+wikipedia
+requests
+pywhatkit
+pyqt5
+PySide2
+flask
