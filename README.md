@@ -35,6 +35,7 @@ Now you can run the Assistant by running the "AssistantGUI.py".
 ## Screenshots and Demo videos
 
 ### Screenshots
-
+![Screenshot](https://user-images.githubusercontent.com/69871258/167255841-473f74b7-618d-480c-a14a-b671fe6a7ab9.png)
 
 ### Demo videos
+https://user-images.githubusercontent.com/69871258/167255861-520d3024-fa54-4ceb-a4ea-fbd76deee928.mp4
