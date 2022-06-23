@@ -141,6 +141,9 @@ def Task_Gui():
             speak("I like you even more than anything else sir..." )
             print("I like you even more than anything else sir..." )
 
+        elif "None" in query:
+            pass
+
         else:
             try:
                 speak(f"Would you like me to search {query} on google?")
